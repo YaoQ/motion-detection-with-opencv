@@ -1,5 +1,5 @@
 # motion-detection-with-opencv
-Thanks to **Adrian Rosebrock**, he give us a very awesome project that using Respberry Pi ,python and OpenCv to detect motion. Details you can check this website:[Home Surveillance](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/).
+Thanks to **Adrian Rosebrock**, he gives us a very awesome project that using Respberry Pi, Python and OpenCv to detect motion. Details you can read this website:[Home Surveillance](http://www.pyimagesearch.com/2015/06/01/home-surveillance-and-motion-detection-with-the-raspberry-pi-python-and-opencv/).
 
 I has ported this intesting project to pcDuino8 Uno.
 
@@ -8,8 +8,8 @@ I has ported this intesting project to pcDuino8 Uno.
 - Webcam
 
 ### software
-- python
-- opencv
+- Python
+- OpenCV
 - imutils
 
 ### steps
@@ -18,7 +18,7 @@ I has ported this intesting project to pcDuino8 Uno.
 $ git clone https://github.com/YaoQ/motion-detection-with-opencv 
 ```
 ### 2. Connect webcam
-Plug the webcam input pcDuino8 Uno
+Plug the webcam input pcDuino8 Uno, and the webcam could be recognized as /dev/video0. 
 
 ### 3. Test
 ```bash
